@@ -2,9 +2,6 @@
 layout: homepage
 ---
 
-<h1 id="about-me"></h1>
-
-<h2 style="margin: 80px 0px 10px;"></h2>
 
 I am an Assistant Professor in the [School of Information Sciences](https://ischool.illinois.edu/) and the [Coordinated Science Laboratory](https://csl.illinois.edu/) at the [University of Illinois Urbana-Champaign](https://www.illinois.edu/). I am also affiliated with the [Siebel School of Computing and Data Science](https://cs.illinois.edu/) (formerly the Department of Computer Science) and the [Department of Electrical & Computer Engineering](https://ece.illinois.edu/).
 
@@ -14,7 +11,7 @@ My research lies at the intersection of **computer vision** and **machine learni
 
 
 <div style="border-left: 4px solid #FF5F05; padding: 10px 16px; background-color: #fafafa; color: #333; border-radius: 0 4px 4px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.07);">
-<strong style="color:#c0392b;">For prospective students: If you are interested in working with me, please see details <a href="https://vision.ischool.illinois.edu/openings/">here</a>.</strong>
+<strong style="color:#c0392b;">Prospective students: If you are interested in working with me, please see details <a href="https://vision.ischool.illinois.edu/openings/">here</a>.</strong>
 </div>
 
 

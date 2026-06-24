@@ -4,7 +4,6 @@
 <li><strong>[Feb. 2026]</strong> I will give a talk on data-efficient learning at <a href="https://cse.ucsd.edu/">UC San Diego</a>.</li>
 <li><strong>[Nov. 2025]</strong> Recognized as a <a href="https://nips.cc/Conferences/2025/ProgramCommittee#top-ac">Top Area Chair</a> at <a href="https://nips.cc/Conferences/2025/">NeurIPS 2025</a>.</li>
 <li><strong>[Nov. 2025]</strong> Selected for the <a href="https://aaai.org/conference/aaai/aaai-26/new-faculty-highlights-program/">AAAI-26 New Faculty Highlights Program</a>.</li>
-<li><strong>[Oct. 2025]</strong> I will give a talk at the <a href="https://mclworkshop25.github.io/mcl-iccv2025/ICCV2025/">Workshop on Multimodal Continual Learning</a>, <a href="https://iccv.thecvf.com/Conferences/2025">ICCV 2025</a>.</li>
 <li><strong>[Sep. 2025]</strong> I gave invited talks on continual learning and 3D at <a href="https://engineering.msu.edu/departments/cse">MSU</a> and <a href="https://cs.uic.edu/">UIC</a>. </li>
 <li><strong>[Aug. 2025]</strong> I will serve as an Editorial Board Member of <a href="https://link.springer.com/journal/11263">IJCV</a>.</li>
 <li><strong>[Jul. 2025]</strong> Our paper about <a href="https://yaoyaoliu.cs.illinois.edu/preprints/Prompt_Based_Exemplar_Super_Compresion_and_Regeneration_for_Class_Incremental_Learing.pdf">continual learning</a> is accepted to <a href="https://bmvc2025.bmva.org/">BMVC 2025</a>.</li>
