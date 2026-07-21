@@ -33,6 +33,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications h2 span { font-size: 1.5rem; }
 
 h2.pub-section-title { margin: 60px 0 8px; padding-bottom: 10px; border-bottom: 2px solid var(--global-theme-color); display: flex; align-items: center; gap: 14px; }
+section > h2.pub-section-title:first-child { margin-top: 0; }
 
 .pub-ext-links { display: inline-flex; gap: 6px; margin-left: 4px; }
 
@@ -44,7 +45,9 @@ h3.pub-subsection { font-size: 0.95rem; font-weight: 700; color: #666; text-tran
 
 .publications ol.bibliography li .abbr abbr[data-venue="arXiv"] { background-color: #e07b39; }
 
-.publications h2.year { color: #13294B; border-bottom: 2px solid #13294B; margin-top: 2.5rem; margin-bottom: 0.8rem; padding-bottom: 4px; text-align: left; font-size: 1.25rem; }
+.publications ol.bibliography li .abbr abbr[data-venue="Preprint"] { background-color: #e07b39; }
+
+.publications h2.year { color: #13294B; margin-top: 2.5rem; margin-bottom: 0.8rem; text-align: left; font-size: 1.25rem; letter-spacing: 0.06em; font-weight: 700; border-bottom: none; padding-bottom: 0; }
 
 .publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
 
@@ -62,7 +65,8 @@ h3.pub-subsection { font-size: 0.95rem; font-weight: 700; color: #666; text-tran
 
 .publications ol.bibliography li .abbr .award { color: var(--global-theme-color) !important; border: 1px solid var(--global-theme-color); }
 
-.publications ol.bibliography li .title { font-weight: bolder; font-size: 1.04em; line-height: 1.35; margin-bottom: 3px; }
+.publications ol.bibliography li .title { font-weight: bolder; font-size: 1.04em; line-height: 1.35; margin-bottom: 3px; transition: color 0.15s ease; }
+.publications ol.bibliography li:hover .title { color: #13294B; }
 
 .publications ol.bibliography li .author { color: #555; font-size: 0.95em; margin-bottom: 2px; }
 
