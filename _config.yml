@@ -1,31 +1,27 @@
 # Basic Information 
-title: Yaoyao Liu
-position: Assistant Professor
-affiliation: University of Illinois
-affiliation_link: https://www.illinois.edu/
-affiliation_logo: ./assets/img/illinois.svg
-email: lyy (at) illinois.edu
+title: Zijian Cao
+position: Ph.D. Student in Computer Science
+affiliation: The University of Texas at Austin
+affiliation_link: https://www.utexas.edu/
+affiliation_logo: /assets/img/Texas-Longhorns-01.png
+email: zccao@cs.utexas.edu
 
 # Search Engine Optimization (SEO)
-keywords: yaoyao liu, liu yaoyao, yaoyaoliu, liuyaoyao
+keywords: zijian cao, cao zijian, mobile computing, mobile AI, wearable computing, visual computing
 canonical: https://yaoyaoliu.web.illinois.edu
-description: Yaoyao Liu is an assistant professor at the University of Illinois Urbana-Champaign. His research lies in meta-learning, incremental learning, and image generation.
-
-# The option is used to enable the Illinois template.
-enable_hopkins_logo: true
+description: A Ph.D. student in Computer Science at The University of Texas at Austin researching mobile computing, artificial intelligence, and visual computing.
 
 # The option is used to show the last update time.
 enable_last_update: false
 
 # Links
 link_type: icon #text/icon
-google_scholar: https://scholar.google.com/citations?user=Qi2PSmEAAAAJ
-github_link: https://github.com/yaoyao-liu/
-linkedin: https://www.linkedin.com/in/liuyaoyao/
-twitter: https://twitter.com/YaoyaoLiu1/
+google_scholar: https://scholar.google.com/citations?user=b58f2XIAAAAJ&hl=en
+github_link: https://github.com/ZJCharlesCao/
+linkedin: https://www.linkedin.com/in/zijian-cao-1537152a5/
 
 # Images 
-avatar: https://img.yliu.me/yaoyaoliu.jpg
+avatar: /assets/img/zijian.jpg
 
 # Footnotes
 footnote: Feel free to use my website's source code.
@@ -44,3 +40,5 @@ exclude:
   - README.md
   - LICENSE
   - CNAME
+  - html_source_file
+  - bio.md

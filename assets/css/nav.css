@@ -1,6 +1,6 @@
 /* Top navigation bar */
 .topnav {
-    background-color: #13294B;
+    background-color: #ffffff;
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -22,16 +22,29 @@
 }
 
 /* Logo — align left edge with the page wrapper */
-.topnav img {
-    margin-bottom: 0;
-    margin-top: 10.5pt;
+.topnav .brand-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
     margin-left: calc(50% - 423px);
+    color: #BF5700;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 44px;
+    text-decoration: none;
+}
+
+.topnav img.affiliation-logo {
+    width: 76px;
+    height: 34px;
+    object-fit: contain;
+    margin: 5px 0;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a.normal {
     float: right;
-    color: #f2f2f2;
+    color: #BF5700;
     text-align: center;
     padding: 11px 10px;
     text-decoration: none;
@@ -50,14 +63,14 @@
     left: 10px;
     right: 10px;
     height: 2px;
-    background: #FF5F05;
+    background: #BF5700;
     transform: scaleX(0);
     transition: transform 0.2s ease;
 }
 
 .topnav a.normal:hover {
     background-color: transparent;
-    color: #fff;
+    color: #8f4100;
 }
 
 .topnav a.normal:hover::after {
@@ -97,15 +110,15 @@
     position: absolute;
     right: 0;
     top: 100%;
-    background-color: #13294B;
+    background-color: #ffffff;
     min-width: 130px;
     box-shadow: 0 4px 14px rgba(0,0,0,0.35);
-    border-top: 2px solid #FF5F05;
+    border-top: 2px solid #BF5700;
     z-index: 1000;
 }
 
 .topnav .dropdown-content a {
-    color: #f2f2f2;
+    color: #BF5700;
     padding: 10px 16px;
     text-decoration: none;
     display: block;
@@ -118,8 +131,8 @@
 }
 
 .topnav .dropdown-content a:hover {
-    color: #fff;
-    background-color: rgba(255,255,255,0.08);
+    color: #8f4100;
+    background-color: rgba(191,87,0,0.08);
 }
 
 .topnav .dropdown:hover .dropdown-content {
@@ -128,7 +141,7 @@
 
 /* ─── Responsive: tablet / small desktop ─── */
 @media print, screen and (max-width: 1000px) {
-    .topnav img             { margin-left: 16px; margin-top: 10.5pt;}
+    .topnav .brand-link     { margin-left: 16px; }
     .topnav a.right         { margin-right: 16px; }
     .topnav .dropdown.right { margin-right: 16px; }
     .topnav a.normal        { padding: 11px 7px; }
@@ -137,9 +150,7 @@
 /* ─── Responsive: mobile (hamburger menu) ─── */
 @media print, screen and (max-width: 960px) {
 
-    .topnav img { 
-        margin-left: 35px; 
-        margin-top: 7.5pt;}
+    .topnav .brand-link { margin-left: 24px; }
 
     .topnav a.normal::after { display: none; }
 
@@ -156,7 +167,7 @@
     }
 
     .topnav a.normal {
-        color: white;
+        color: #BF5700;
         float: none;
         padding: 14px 16px;
         text-decoration: none;
@@ -165,7 +176,7 @@
     }
 
     .topnav a.icon {
-        color: white;
+        color: #BF5700;
         display: block;
         padding: 10px 16px;
         font-size: 17px;
@@ -198,7 +209,7 @@
     .topnav a.icon.active .icon-xmark { opacity: 1; transform: rotate(0deg); }
 
     .topnav a.right {
-        color: white;
+        color: #BF5700;
         float: none;
         padding: 14px 16px;
         text-decoration: none;
@@ -250,12 +261,12 @@
     .topnav .dropdown-content a {
         padding: 10px 16px;
         font-size: 15px;
-        color: rgba(242, 242, 242, 0.85);
+        color: #BF5700;
         text-align: center;
     }
 
     .topnav .dropdown-content a:hover {
-        color: #fff;
+        color: #8f4100;
         background-color: transparent;
     }
 }
