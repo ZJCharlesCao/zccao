@@ -8,7 +8,9 @@ email: zccao@cs.utexas.edu
 
 # Search Engine Optimization (SEO)
 keywords: zijian cao, cao zijian, mobile computing, mobile AI, wearable computing, visual computing
-canonical: https://yaoyaoliu.web.illinois.edu
+url: https://zjcharlescao.github.io
+baseurl: /zccao
+canonical: https://zjcharlescao.github.io/zccao
 description: A Ph.D. student in Computer Science at The University of Texas at Austin researching mobile computing, artificial intelligence, and visual computing.
 
 # The option is used to show the last update time.
